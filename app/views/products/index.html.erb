@@ -1,0 +1,20 @@
+<div class="container">
+    <h2 class="center">Products</h2>
+    <hr />
+    <div class="row">
+    <div class="col s12 m6">
+        <ul>
+        <% @products.each do |products| %>
+        <li class="product-item" data-id=<%= product.id %> data-name="<% product.name %>">
+            <%= product.name %> - <%= product.description %>
+            </li>
+        <% end %>
+        </ul>
+    </div>
+    <div class="" id="product-list">
+        <h3 id="product">Hello</h2>
+        <ul id="descriptions">
+        </ul>
+    </div>
+    </div>
+</div>
